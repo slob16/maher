@@ -8,9 +8,9 @@ $enable-grid-classes:       true;
 $enable-print-styles:       true;
 
 // Color scheme
-$default:       #262833;
-$primary:       #e6e7ee;
-$secondary:     #2D4CC8;
+$default:       #faf9f6;
+$primary:       #2a2832;
+$secondary:     #3a3842;
 
 // Generic colors
 $blue:    #0056B3;
@@ -53,7 +53,7 @@ $grays: map-merge((
 ), $grays);
 
 // Main color variables
-$success:       $green;
+$success:       $lilac;
 $info:          $teal;
 $warning:       $yellow;
 $danger:        $red;
@@ -133,7 +133,7 @@ $brand-colors: map-merge((
 
 
 $yiq-contrasted-threshold:  200;
-$yiq-text-dark:             $dark;
+$yiq-text-dark:             $light;
 
 // Image Path
 $path--rel      : "/img";
@@ -159,7 +159,7 @@ $section-colors: map-merge((
 ), $section-colors);
 
 // Links
-$link-color:                $dark;
+$link-color:                $light;
 $link-decoration:           none;
 $link-hover-color:          $black;
 $link-hover-decoration:     none;
